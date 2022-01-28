@@ -1,0 +1,12 @@
+.container {
+    background-color: var(--main-color);
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userData {
+    border-top: 1px solid var(--user-data-border-color);
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 20px;
+}
+
+.user_data_numbers {
+    color: var(--user-data-numbers-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.user_data_name {
+    color: var(--user-data-name-color);
+    font-size: 12px;
+    letter-spacing: 0.15em;
+}
