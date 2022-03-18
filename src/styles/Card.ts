@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { fadeIn, slideIn, increase } from "./animations/animations";
 
 export const CardContainer = styled.div`
   border-radius: 20px;
@@ -42,7 +41,15 @@ export const Avatar = styled.img`
   right: 0;
   text-align: center;
 
-  ${slideIn}
+  @keyframes slide-in {
+    from {
+      margin-top: 24px;
+    }
+
+    to {
+      margin-top: -52px;
+    }
+  } ;
 `;
 
 export const ProfileInfo = styled.div`
@@ -50,7 +57,15 @@ export const ProfileInfo = styled.div`
   opacity: 0;
   margin: 75px 0 25px 0;
 
-  ${fadeIn}
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  } ;
 `;
 
 export const Name = styled.h1`
@@ -76,6 +91,23 @@ export const DataContainer = styled.div`
   opacity: 0;
   justify-content: center;
 
-  ${fadeIn}
-  ${increase}
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes increase {
+    from {
+      height: 0px;
+    }
+
+    to {
+      height: 85px;
+    }
+  } ;
 `;

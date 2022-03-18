@@ -25,6 +25,7 @@ html {
 }
 
 body {
+  animation: rotate 30s linear infinite;
   background-attachment: fixed;
   background-color: var(--background);
   background-image: url("./assets/images/bg-pattern-top.svg"),
@@ -32,4 +33,19 @@ body {
   background-position: right 51vw bottom 38vh, left 50vw top 50vh;
   background-repeat: no-repeat;
   font-family: "Kumbh Sans", sans-serif;
+}
+
+@keyframes rotate {
+  25% {
+    background-position: right -1vw bottom 38vh, left -1vw top 50vh;
+  }
+  50% {
+    background-position: right -1vw bottom -52vh, left -1vw top -40vh;
+  }
+  75% {
+    background-position: right 51vw bottom -52vh, left 50vw top -40vh;
+  }
+  100% {
+    background-position: right 51vw bottom 38vh, left 50vw top 50vh;
+  }
 }
