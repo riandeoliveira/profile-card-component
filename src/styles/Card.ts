@@ -31,12 +31,10 @@ export const ProfileContainer = styled.div`
 
 export const Avatar = styled.img`
   animation: slide-in 1s;
-  border: 5px solid var(--main);
   border-radius: 50%;
+  border: 5px solid var(--main);
   left: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -52px;
+  margin: -52px auto;
   position: absolute;
   right: 0;
   text-align: center;
@@ -54,14 +52,10 @@ export const Avatar = styled.img`
 
 export const ProfileInfo = styled.div`
   animation: fade-in 1s 0.5s forwards;
+  margin: 75px 0 25px;
   opacity: 0;
-  margin: 75px 0 25px 0;
 
   @keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-
     to {
       opacity: 1;
     }
@@ -75,9 +69,9 @@ export const Name = styled.h1`
 `;
 
 export const Age = styled.span`
-  margin-left: 5px;
   color: var(--text);
   font-weight: 400;
+  margin-left: 5px;
 `;
 
 export const City = styled.span`
@@ -88,14 +82,10 @@ export const City = styled.span`
 export const DataContainer = styled.div`
   animation: fade-in 1s 0.5s forwards, increase 1s;
   display: flex;
-  opacity: 0;
   justify-content: center;
+  opacity: 0;
 
   @keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-
     to {
       opacity: 1;
     }
