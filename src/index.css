@@ -1,41 +1,43 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    align-items: center;
-    display: flex;
-    height: 100%;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
 }
 
 :root {
-    --bg-color: #19a2ae;
-    --card-shadow-color: #00000049;
-    --main-color: #ffffff;
-    --profile-picture-border-color: #ffffff;
-    --user-age-color: #6a6f81;
-    --user-city-color: #6a6f81;
-    --user-data-border-color: #9696964d;
-    --user-data-name-color: #6a6f81;
-    --user-data-numbers-color: #2d3248;
-    --user-name-color: #2d3248;
+  --bg-color: #19a2ae;
+  --card-shadow-color: #00000049;
+  --main-color: #ffffff;
+  --profile-picture-border-color: #ffffff;
+  --user-age-color: #6a6f81;
+  --user-city-color: #6a6f81;
+  --user-data-border-color: #9696964d;
+  --user-data-name-color: #6a6f81;
+  --user-data-numbers-color: #2d3248;
+  --user-name-color: #2d3248;
 
-    --font: 'Kumbh Sans', sans-serif;
+  --font: "Kumbh Sans", sans-serif;
 }
 
 body {
-    background-attachment: fixed;
-    background-color: var(--bg-color);
-    background-image: url('./assets/images/bg-pattern-top.svg'), url('.//assets//images/bg-pattern-bottom.svg');
-    /* background-position: top left, right bottom; */
-    /* background-position: -9% 2015%, 103% -2626%; */
-    background-position: right 51vw bottom 38vh, left 50vw top 50vh;
-    background-repeat: no-repeat;
-    font-family: var(--font);
+  background-attachment: fixed;
+  background-color: var(--bg-color);
+  background-image: url("./assets/images/bg-pattern-top.svg"),
+    url(".//assets//images/bg-pattern-bottom.svg");
+  /* background-position: top left, right bottom; */
+  /* background-position: -9% 2015%, 103% -2626%; */
+  background-position: right 51vw bottom 38vh, left 50vw top 50vh;
+  background-repeat: no-repeat;
+  font-family: var(--font);
 }
