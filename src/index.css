@@ -16,28 +16,20 @@ html {
 }
 
 :root {
-  --bg-color: #19a2ae;
-  --card-shadow-color: #00000049;
-  --main-color: #ffffff;
-  --profile-picture-border-color: #ffffff;
-  --user-age-color: #6a6f81;
-  --user-city-color: #6a6f81;
-  --user-data-border-color: #9696964d;
-  --user-data-name-color: #6a6f81;
-  --user-data-numbers-color: #2d3248;
-  --user-name-color: #2d3248;
-
-  --font: "Kumbh Sans", sans-serif;
+  --background: #19a2ae;
+  --card-shadow: #00000049;
+  --data-border: #9696964d;
+  --main: #ffffff;
+  --strong-text: #2d3248;
+  --text: #6a6f81;
 }
 
 body {
   background-attachment: fixed;
-  background-color: var(--bg-color);
+  background-color: var(--background);
   background-image: url("./assets/images/bg-pattern-top.svg"),
     url(".//assets//images/bg-pattern-bottom.svg");
-  /* background-position: top left, right bottom; */
-  /* background-position: -9% 2015%, 103% -2626%; */
   background-position: right 51vw bottom 38vh, left 50vw top 50vh;
   background-repeat: no-repeat;
-  font-family: var(--font);
+  font-family: "Kumbh Sans", sans-serif;
 }

@@ -7,13 +7,13 @@ export const DataContent = styled.div`
 `;
 
 export const DataName = styled.span`
-  color: var(--user-data-name-color);
+  color: var(--text);
   font-size: 12px;
   letter-spacing: 0.15em;
 `;
 
 export const DataNumbers = styled.span`
-  color: var(--user-data-numbers-color);
+  color: var(--strong-text);
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 6px;
