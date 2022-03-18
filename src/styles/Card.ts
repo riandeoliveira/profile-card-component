@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { fadeIn, slideIn, increase } from "./animations/animations";
 
 export const CardContainer = styled.div`
   border-radius: 20px;
@@ -25,9 +26,12 @@ export const MainArea = styled.main`
   flex-direction: column;
 `;
 
-export const ProfileContainer = styled.div``;
+export const ProfileContainer = styled.div`
+  border-bottom: 1px solid var(--data-border);
+`;
 
 export const Avatar = styled.img`
+  animation: slide-in 1s;
   border: 5px solid var(--main);
   border-radius: 50%;
   left: 0;
@@ -37,10 +41,16 @@ export const Avatar = styled.img`
   position: absolute;
   right: 0;
   text-align: center;
+
+  ${slideIn}
 `;
 
 export const ProfileInfo = styled.div`
+  animation: fade-in 1s 0.5s forwards;
+  opacity: 0;
   margin: 75px 0 25px 0;
+
+  ${fadeIn}
 `;
 
 export const Name = styled.h1`
@@ -61,7 +71,11 @@ export const City = styled.span`
 `;
 
 export const DataContainer = styled.div`
-  border-top: 1px solid var(--data-border);
+  animation: fade-in 1s 0.5s forwards, increase 1s;
   display: flex;
+  opacity: 0;
   justify-content: center;
+
+  ${fadeIn}
+  ${increase}
 `;
