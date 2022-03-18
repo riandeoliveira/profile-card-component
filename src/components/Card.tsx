@@ -1,3 +1,4 @@
+import data from "../data/data.json";
 import {
   CardContainer,
   HeaderArea,
@@ -13,7 +14,6 @@ import {
 } from "../styles/Card";
 import background from "../assets/images/bg-pattern-card.svg";
 import avatar from "../assets/images/avatar.jpg";
-import data from "../data/data.json";
 
 const { user_name, user_age, user_city } = data;
 
