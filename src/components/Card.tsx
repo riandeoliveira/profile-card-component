@@ -26,13 +26,13 @@ export const Card: React.FC<CardProps> = ({ profileData }) => {
     <CardContainer>
       <HeaderArea>
         <HeaderImage
-          src={background}
           alt="Card header. With little cyan blue circles"
+          src={background}
         />
       </HeaderArea>
       <MainArea>
         <ProfileContainer>
-          <Avatar src={avatar} alt="User profile avatar" />
+          <Avatar alt="User profile avatar" src={avatar} />
           <ProfileInfo>
             <Name>
               {user_name}
