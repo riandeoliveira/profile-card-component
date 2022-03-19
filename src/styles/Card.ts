@@ -13,7 +13,7 @@ export const HeaderArea = styled.header`
   display: flex;
 `;
 
-export const HeaderImage = styled.img`
+export const Circles = styled.img`
   border-radius: 20px 20px 0 0;
   width: 100%;
 `;

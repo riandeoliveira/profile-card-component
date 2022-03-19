@@ -1,4 +1,4 @@
-import { DataName, DataNumbers, DataContent } from "../styles/Data";
+import { DataContent, DataName, DataNumbers } from "../styles/Data";
 
 interface DataProps {
   name: string;

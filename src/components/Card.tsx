@@ -2,7 +2,7 @@ import data from "../data/data.json";
 import {
   CardContainer,
   HeaderArea,
-  HeaderImage,
+  Circles,
   MainArea,
   ProfileContainer,
   Avatar,
@@ -12,10 +12,10 @@ import {
   City,
   DataContainer,
 } from "../styles/Card";
-import background from "../assets/images/bg-pattern-card.svg";
+import circles from "../assets/images/circles.svg";
 import avatar from "../assets/images/avatar.jpg";
 
-const { user_name, user_age, user_city } = data;
+const { circles_alt, avatar_alt, user_name, user_age, user_city } = data;
 
 interface CardProps {
   profileData: JSX.Element[];
@@ -25,14 +25,11 @@ export const Card: React.FC<CardProps> = ({ profileData }) => {
   return (
     <CardContainer>
       <HeaderArea>
-        <HeaderImage
-          alt="Card header. With little cyan blue circles"
-          src={background}
-        />
+        <Circles alt={circles_alt} src={circles} />
       </HeaderArea>
       <MainArea>
         <ProfileContainer>
-          <Avatar alt="User profile avatar" src={avatar} />
+          <Avatar alt={avatar_alt} src={avatar} />
           <ProfileInfo>
             <Name>
               {user_name}

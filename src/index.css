@@ -33,8 +33,8 @@ body {
   animation: rotate 30s linear infinite;
   background-attachment: fixed;
   background-color: var(--background);
-  background-image: url("./assets/images/bg-pattern-top.svg"),
-    url(".//assets//images/bg-pattern-bottom.svg");
+  background-image: url("./assets/images/top-circle.svg"),
+    url(".//assets//images/bottom-circle.svg");
   background-position: right 51vw bottom 38vh, left 50vw top 50vh;
   background-repeat: no-repeat;
 }
