@@ -12,7 +12,7 @@ Desenvolvido com base no [design](https://www.frontendmentor.io/challenges/profi
 
 ## Como acessar
 
-A aplicação está hospedada no GitHub Pages e pode ser acessada [aqui](https://riandeoliveira.github.io/profile-card-component/).
+A aplicação está hospedada no **GitHub Pages** e pode ser acessada [aqui](https://riandeoliveira.github.io/profile-card-component/).
 
 ## Tecnologias utilizadas
 
