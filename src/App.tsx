@@ -1,6 +1,6 @@
 import data from "./data/data.json";
-import { Card } from "./components/Card";
 import { Data } from "./components/Data";
+import { Card } from "./components/Card";
 
 const { content_name, content_numbers } = data;
 
