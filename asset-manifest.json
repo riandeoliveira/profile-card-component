@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/profile-card-component/static/css/main.8ca13c76.css",
-    "main.js": "/profile-card-component/static/js/main.e96dbe60.js",
-    "static/media/bg-pattern-card.svg": "/profile-card-component/static/media/bg-pattern-card.b61daebd3cb4b885d10fd683755d49bb.svg",
+    "main.css": "/profile-card-component/static/css/main.2e3b1e75.css",
+    "main.js": "/profile-card-component/static/js/main.db155ed6.js",
+    "static/media/circles.svg": "/profile-card-component/static/media/circles.e9f8adaaa5a8d1cc56d076c0f5713ac6.svg",
     "index.html": "/profile-card-component/index.html",
-    "static/media/bg-pattern-bottom.svg": "/profile-card-component/static/media/bg-pattern-bottom.a34eb319c02ad49587c3.svg",
-    "static/media/bg-pattern-top.svg": "/profile-card-component/static/media/bg-pattern-top.dae77b1febf9b29fe34e.svg",
-    "main.8ca13c76.css.map": "/profile-card-component/static/css/main.8ca13c76.css.map",
-    "main.e96dbe60.js.map": "/profile-card-component/static/js/main.e96dbe60.js.map"
+    "static/media/bottom-circle.svg": "/profile-card-component/static/media/bottom-circle.64d7e2974929714334ee.svg",
+    "static/media/top-circle.svg": "/profile-card-component/static/media/top-circle.53e9d65086a52f91e65c.svg",
+    "main.2e3b1e75.css.map": "/profile-card-component/static/css/main.2e3b1e75.css.map",
+    "main.db155ed6.js.map": "/profile-card-component/static/js/main.db155ed6.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ca13c76.css",
-    "static/js/main.e96dbe60.js"
+    "static/css/main.2e3b1e75.css",
+    "static/js/main.db155ed6.js"
   ]
 }
