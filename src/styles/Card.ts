@@ -58,10 +58,13 @@ export const ProfileContainer = styled.div`
   } ;
 `;
 
-export const Name = styled.h1`
-  color: var(--strong-text);
+export const NameContainer = styled.h1`
   font-size: 18px;
   margin-bottom: 6px;
+`;
+
+export const Name = styled.span`
+  color: var(--strong-text);
 `;
 
 export const Age = styled.span`

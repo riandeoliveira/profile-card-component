@@ -6,6 +6,7 @@ import {
   MainArea,
   Avatar,
   ProfileContainer,
+  NameContainer,
   Name,
   Age,
   City,
@@ -29,10 +30,10 @@ export const Card: React.FC<CardProps> = ({ profileData }) => {
       <MainArea>
         <Avatar alt={avatar_alt} src={avatar} />
         <ProfileContainer>
-          <Name>
-            {user_name}
+          <NameContainer>
+            <Name>{user_name}</Name>
             <Age>{user_age}</Age>
-          </Name>
+          </NameContainer>
           <City>{user_city}</City>
         </ProfileContainer>
       </MainArea>
