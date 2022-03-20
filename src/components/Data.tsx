@@ -1,4 +1,4 @@
-import { DataContent, DataName, DataNumbers } from "../styles/Data";
+import { DataContainer, DataName, DataNumbers } from "../styles/Data";
 
 interface DataProps {
   name: string;
@@ -7,9 +7,10 @@ interface DataProps {
 
 export const Data: React.FC<DataProps> = ({ name, numbers }) => {
   return (
-    <DataContent>
+    
+    <DataContainer>
       <DataName>{name}</DataName>
       <DataNumbers>{numbers}</DataNumbers>
-    </DataContent>
+    </DataContainer>
   );
 };

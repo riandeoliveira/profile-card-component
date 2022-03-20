@@ -1,9 +1,27 @@
 import styled from "styled-components";
 
-export const DataContent = styled.div`
+export const DataContainer = styled.div`
+  animation: fade-in 1s 0.5s forwards, increase 1s;
   display: flex;
   flex-direction: column-reverse;
   margin: 20px;
+  opacity: 0;
+
+  @keyframes fade-in {
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes increase {
+    from {
+      height: 0px;
+    }
+
+    to {
+      height: 44.2px;
+    }
+  } ;
 `;
 
 export const DataName = styled.span`

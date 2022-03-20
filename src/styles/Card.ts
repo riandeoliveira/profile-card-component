@@ -19,20 +19,16 @@ export const Circles = styled.img`
 `;
 
 export const MainArea = styled.main`
-  background-color: var(--main);
-  border-radius: 0 0 20px 20px;
+  background-color: var(--card);
+  border-bottom: 1px solid var(--data-border);
   display: flex;
   flex-direction: column;
-`;
-
-export const ProfileContainer = styled.div`
-  border-bottom: 1px solid var(--data-border);
 `;
 
 export const Avatar = styled.img`
   animation: slide-in 1s;
   border-radius: 50%;
-  border: 5px solid var(--main);
+  border: 5px solid var(--card);
   left: 0;
   margin: -52px auto;
   position: absolute;
@@ -50,7 +46,7 @@ export const Avatar = styled.img`
   } ;
 `;
 
-export const ProfileInfo = styled.div`
+export const ProfileContainer = styled.div`
   animation: fade-in 1s 0.5s forwards;
   margin: 75px 0 25px;
   opacity: 0;
@@ -79,25 +75,9 @@ export const City = styled.span`
   font-size: 14px;
 `;
 
-export const DataContainer = styled.div`
-  animation: fade-in 1s 0.5s forwards, increase 1s;
+export const FooterArea = styled.footer`
+  background-color: var(--card);
+  border-radius: 0 0 20px 20px;
   display: flex;
   justify-content: center;
-  opacity: 0;
-
-  @keyframes fade-in {
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes increase {
-    from {
-      height: 0px;
-    }
-
-    to {
-      height: 85px;
-    }
-  } ;
 `;

@@ -4,13 +4,12 @@ import {
   HeaderArea,
   Circles,
   MainArea,
-  ProfileContainer,
   Avatar,
-  ProfileInfo,
+  ProfileContainer,
   Name,
   Age,
   City,
-  DataContainer,
+  FooterArea,
 } from "../styles/Card";
 import circles from "../assets/images/circles.svg";
 import avatar from "../assets/images/avatar.jpg";
@@ -28,18 +27,16 @@ export const Card: React.FC<CardProps> = ({ profileData }) => {
         <Circles alt={circles_alt} src={circles} />
       </HeaderArea>
       <MainArea>
+        <Avatar alt={avatar_alt} src={avatar} />
         <ProfileContainer>
-          <Avatar alt={avatar_alt} src={avatar} />
-          <ProfileInfo>
-            <Name>
-              {user_name}
-              <Age>{user_age}</Age>
-            </Name>
-            <City>{user_city}</City>
-          </ProfileInfo>
+          <Name>
+            {user_name}
+            <Age>{user_age}</Age>
+          </Name>
+          <City>{user_city}</City>
         </ProfileContainer>
-        <DataContainer>{profileData}</DataContainer>
       </MainArea>
+      <FooterArea>{profileData}</FooterArea>
     </CardContainer>
   );
 };
