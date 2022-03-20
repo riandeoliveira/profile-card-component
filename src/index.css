@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+@import "./styles/animations//animations.css";
 
 * {
   border: 0;
   box-sizing: border-box;
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: var(--primary), var(--secondary);
   list-style: none;
   margin: 0;
   outline: 0;
@@ -20,6 +21,9 @@
   --card: #ffffff;
   --strong-text: #2d3248;
   --text: #6a6f81;
+
+  --primary: "Kumbh Sans";
+  --secondary: sans-serif;
 }
 
 html {
@@ -37,19 +41,4 @@ body {
     url(".//assets//images/bottom-circle.svg");
   background-position: right 51vw bottom 38vh, left 50vw top 50vh;
   background-repeat: no-repeat;
-}
-
-@keyframes rotate {
-  25% {
-    background-position: right -1vw bottom 38vh, left -1vw top 50vh;
-  }
-  50% {
-    background-position: right -1vw bottom -52vh, left -1vw top -40vh;
-  }
-  75% {
-    background-position: right 51vw bottom -52vh, left 50vw top -40vh;
-  }
-  100% {
-    background-position: right 51vw bottom 38vh, left 50vw top 50vh;
-  }
 }

@@ -34,28 +34,12 @@ export const Avatar = styled.img`
   position: absolute;
   right: 0;
   text-align: center;
-
-  @keyframes slide-in {
-    from {
-      margin-top: 24px;
-    }
-
-    to {
-      margin-top: -52px;
-    }
-  } ;
 `;
 
 export const ProfileContainer = styled.div`
   animation: fade-in 1s 0.5s forwards;
   margin: 75px 0 25px;
   opacity: 0;
-
-  @keyframes fade-in {
-    to {
-      opacity: 1;
-    }
-  } ;
 `;
 
 export const NameContainer = styled.h1`

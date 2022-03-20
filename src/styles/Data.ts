@@ -6,22 +6,6 @@ export const DataContainer = styled.div`
   flex-direction: column-reverse;
   margin: 20px;
   opacity: 0;
-
-  @keyframes fade-in {
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes increase {
-    from {
-      height: 0px;
-    }
-
-    to {
-      height: 44.2px;
-    }
-  } ;
 `;
 
 export const DataName = styled.span`
