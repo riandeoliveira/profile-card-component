@@ -9,13 +9,13 @@ export const DataContainer = styled.div`
 `;
 
 export const DataName = styled.span`
-  color: var(--text);
+  color: var(--storm-gray-color);
   font-size: 12px;
   letter-spacing: 0.15em;
 `;
 
 export const DataNumbers = styled.span`
-  color: var(--strong-text);
+  color: var(--ebony-clay-color);
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 6px;
