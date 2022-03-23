@@ -6,7 +6,7 @@
 * {
   border: 0;
   box-sizing: border-box;
-  font-family: var(--primary), var(--secondary);
+  font-family: var(--primary-font), var(--secondary-font);
   list-style: none;
   margin: 0;
   outline: 0;
@@ -15,15 +15,15 @@
 }
 
 :root {
-  --background: #19a2ae;
-  --card-shadow: #00000049;
-  --data-border: #9696964d;
-  --card: #ffffff;
-  --strong-text: #2d3248;
-  --text: #6a6f81;
+  --cod-gray-color: #1f1c1c15;
+  --dusty-gray-color: #9696964d;
+  --eastern-blue-color: #19a2ae;
+  --ebony-clay-color: #2d3248;
+  --storm-gray-color: #6a6f81;
+  --white-color: #ffffff;
 
-  --primary: "Kumbh Sans";
-  --secondary: sans-serif;
+  --primary-font: "Kumbh Sans";
+  --secondary-font: sans-serif;
 }
 
 html {
@@ -36,7 +36,7 @@ html {
 body {
   animation: rotate 30s linear infinite;
   background-attachment: fixed;
-  background-color: var(--background);
+  background-color: var(--eastern-blue-color);
   background-image: url("./assets/images/top-circle.svg"),
     url(".//assets//images/bottom-circle.svg");
   background-position: right 51vw bottom 38vh, left 50vw top 50vh;
