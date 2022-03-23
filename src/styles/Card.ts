@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
   border-radius: 20px;
-  box-shadow: 0px 20px 80px var(--card-shadow);
+  box-shadow: 0px 30px 30px var(--cod-gray-color);
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -19,8 +19,8 @@ export const Circles = styled.img`
 `;
 
 export const MainArea = styled.main`
-  background-color: var(--card);
-  border-bottom: 1px solid var(--data-border);
+  background-color: var(--white-color);
+  border-bottom: 1px solid var(--dusty-gray-color);
   display: flex;
   flex-direction: column;
 `;
@@ -28,7 +28,7 @@ export const MainArea = styled.main`
 export const Avatar = styled.img`
   animation: slide-in 1s;
   border-radius: 50%;
-  border: 5px solid var(--card);
+  border: 5px solid var(--white-color);
   left: 0;
   margin: -52px auto;
   position: absolute;
@@ -48,22 +48,22 @@ export const NameContainer = styled.h1`
 `;
 
 export const Name = styled.span`
-  color: var(--strong-text);
+  color: var(--ebony-clay-color);
 `;
 
 export const Age = styled.span`
-  color: var(--text);
+  color: var(--storm-gray-color);
   font-weight: 400;
   margin-left: 5px;
 `;
 
 export const City = styled.span`
-  color: var(--text);
+  color: var(--storm-gray-color);
   font-size: 14px;
 `;
 
 export const FooterArea = styled.footer`
-  background-color: var(--card);
+  background-color: var(--white-color);
   border-radius: 0 0 20px 20px;
   display: flex;
   justify-content: center;
