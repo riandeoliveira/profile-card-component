@@ -26,7 +26,7 @@ A aplicação está hospedada no **GitHub Pages** e pode ser acessada [aqui](htt
 
 ## Atualizado em
 
-19 de mar. de 2022
+27 de mar. de 2022
 
 ## Desenvolvido em
 
