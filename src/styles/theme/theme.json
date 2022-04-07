@@ -1,0 +1,14 @@
+{
+  "colors": {
+    "cod_gray": "#1f1c1c15",
+    "dusty_gray": "#9696964d",
+    "eastern_blue": "#19a2ae",
+    "ebony_clay": "#2d3248",
+    "storm_gray": "#6a6f81",
+    "white": "#ffffff"
+  },
+  "fonts": {
+    "primary": "Kumbh Sans",
+    "secondary": "sans-serif"
+  }
+}

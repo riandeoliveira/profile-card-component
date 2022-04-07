@@ -1,4 +1,5 @@
-import data from "../data/data.json";
+import content from "../content/card.json";
+import { CardProps } from "../interfaces/interfaces";
 import {
   CardContainer,
   HeaderArea,
@@ -12,16 +13,11 @@ import {
   City,
   FooterArea,
 } from "../styles/Card";
-import circles from "../assets/images/circles.svg";
-import avatar from "../assets/images/avatar.jpg";
+import { circles, avatar } from "../assets/media";
 
-const { circles_alt, avatar_alt, user_name, user_age, user_city } = data;
+const { circles_alt, avatar_alt, user_name, user_age, user_city } = content;
 
-interface CardProps {
-  profileData: JSX.Element[];
-}
-
-export const Card: React.FC<CardProps> = ({ profileData }) => {
+const Card: React.FC<CardProps> = ({ content }): JSX.Element => {
   return (
     <CardContainer>
       <HeaderArea>
@@ -37,7 +33,9 @@ export const Card: React.FC<CardProps> = ({ profileData }) => {
           <City>{user_city}</City>
         </ProfileContainer>
       </MainArea>
-      <FooterArea>{profileData}</FooterArea>
+      <FooterArea>{content}</FooterArea>
     </CardContainer>
   );
 };
+
+export default Card;

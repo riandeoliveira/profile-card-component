@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import theme from "./theme/theme.json";
 
 export const CardContainer = styled.div`
   border-radius: 20px;
-  box-shadow: 0px 30px 30px var(--cod-gray-color);
+  box-shadow: 0px 30px 30px ${theme.colors.cod_gray};
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -19,8 +20,8 @@ export const Circles = styled.img`
 `;
 
 export const MainArea = styled.main`
-  background-color: var(--white-color);
-  border-bottom: 1px solid var(--dusty-gray-color);
+  background-color: ${theme.colors.white};
+  border-bottom: 1px solid ${theme.colors.dusty_gray};
   display: flex;
   flex-direction: column;
 `;
@@ -28,7 +29,7 @@ export const MainArea = styled.main`
 export const Avatar = styled.img`
   animation: slide-in 1s;
   border-radius: 50%;
-  border: 5px solid var(--white-color);
+  border: 5px solid ${theme.colors.white};
   left: 0;
   margin: -52px auto;
   position: absolute;
@@ -48,22 +49,22 @@ export const NameContainer = styled.h1`
 `;
 
 export const Name = styled.span`
-  color: var(--ebony-clay-color);
+  color: ${theme.colors.ebony_clay};
 `;
 
 export const Age = styled.span`
-  color: var(--storm-gray-color);
+  color: ${theme.colors.storm_gray};
   font-weight: 400;
   margin-left: 5px;
 `;
 
 export const City = styled.span`
-  color: var(--storm-gray-color);
+  color: ${theme.colors.storm_gray};
   font-size: 14px;
 `;
 
 export const FooterArea = styled.footer`
-  background-color: var(--white-color);
+  background-color: ${theme.colors.white};
   border-radius: 0 0 20px 20px;
   display: flex;
   justify-content: center;
