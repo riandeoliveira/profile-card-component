@@ -1,26 +1,32 @@
-import content from "./content/data.json";
-import { CardContent } from "./interfaces/interfaces";
-import Data from "./components/Data";
-import Card from "./components/Card";
-
-const { data_content } = content;
+import { AppBox, Name, Total } from "./styles/App";
+import { circles, avatar } from "./assets/media";
+import infos from "./content/infos.json";
 
 const App: React.FC = (): JSX.Element => {
-  const setCardContent = (item: CardContent): CardContent => {
-    const cardContent: CardContent = {
-      id: item.id,
-      info_name: item.info_name,
-      info_number: item.info_number,
-    };
-
-    return cardContent;
-  };
-
-  const data = data_content.map((item, i) => (
-    <Data content={setCardContent(item)} key={i} />
-  ));
-
-  return <Card content={data} />;
+  return (
+    <AppBox>
+      <header>
+        <img alt="Card header. With little cyan blue circles" src={circles} />
+      </header>
+      <main>
+        <img alt="User profile avatar" src={avatar} />
+        <div>
+          <h1>
+            Victor Crest <span>26</span>
+          </h1>
+          <span>London</span>
+        </div>
+      </main>
+      <footer>
+        {infos.map((info, i) => (
+          <div key={i}>
+            <Name>{info.name}</Name>
+            <Total>{info.total}</Total>
+          </div>
+        ))}
+      </footer>
+    </AppBox>
+  );
 };
 
 export default App;
